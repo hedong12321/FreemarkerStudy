@@ -9,9 +9,6 @@ import com.bufoon.util.page.PageResultSet;
 
 /**
  * 业务层
- * 
- * @author bufoon
- *
  */
 public interface UserService {
 

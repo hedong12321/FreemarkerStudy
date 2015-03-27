@@ -5,9 +5,6 @@ import java.util.List;
 
 /**
  * 基础数据库操作类
- * 
- * @author bufoon
- * 
  */
 public interface BaseDAO<T> {
 
