@@ -7,7 +7,7 @@
 <body>
 <#list users as user>
 username : ${user.username}<br/>
-password : ${user.password}<br/> 
+password : ${user.password}<br/>
 </#list>
 </body>
 </html>
