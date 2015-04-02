@@ -68,7 +68,7 @@
 			
 			//检查输入页数
 			function checkInputPage(val) {
-			  var msg ;
+			  var msg;
               if (val < 1) {
                 msg = "输入值不能小于1";
               }
@@ -326,13 +326,13 @@
 			var method = {};	//方法
 			
 			method.getPage = function(){
-				  return this.currPage;
-			  }
+			    return this.currPage;
+		    };
 			  
-			  method.onReload = function(){
-				  debug("reload()");
-				  onRequest();
-			  }
+			method.onReload = function(){
+				debug("reload()");
+				onRequest();
+			};
 			  
 			  //指定加载数据
 			  method.onLoad = function(param){
@@ -342,7 +342,7 @@
 					  opts.ajax.param = param.param;
 					  onRequest();
 				  }
-			  }
+			  };
 			  
 			  //跳转指定页面
 			  method.jumpPage = function(page){
@@ -351,7 +351,7 @@
 				  page = page > opts.pageCount ? opts.pageCount : page;	//如果page大于pageCount则为pageCount
 				  opts.currPage = page;
 				  onRequest();
-			  }
+			  };
 			
 			return method;
 		}
@@ -360,6 +360,6 @@
 			if(window.console && window.console.log){
 				console.log(str);
 			}
-		}
+		};
 			
       })(jQuery);

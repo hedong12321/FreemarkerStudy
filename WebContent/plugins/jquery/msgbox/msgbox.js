@@ -1,3 +1,10 @@
+/*获取应用跟路径*/
+var root = (function(){
+	var href = window.location.href;
+	var host = window.location.host;
+	var index = href.indexOf(host) + host.length + 1; //host结束位置的索引（包含/）
+	return href.substring(0, href.indexOf('/', index)) + '/';
+})(window);
 
 window.ZENG=window.ZENG || {};
 
@@ -152,7 +159,7 @@ if (typeof (ZENG.msgbox) == 'undefined') {
     ZENG.msgbox = {};
 }
 ZENG.msgbox._timer = null;
-ZENG.msgbox.loadingAnimationPath = ZENG.msgbox.loadingAnimationPath || ("js/page/msgbox/loading.gif");
+ZENG.msgbox.loadingAnimationPath = ZENG.msgbox.loadingAnimationPath || (root + 'plugins/jquery/msgbox/loading.gif');
 ZENG.msgbox.show = function(msgHtml, type, timeout, opts) {
     if (typeof (opts) == 'number') {
         opts = {topPosition: opts};
