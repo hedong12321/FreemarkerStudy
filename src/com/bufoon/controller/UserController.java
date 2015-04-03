@@ -41,6 +41,8 @@ public class UserController {
 		
 		Constants.LOGIN_USER = user.getUsername();
 		return "redirect:/user/index";
+		// forward方式可以共享userModel
+		// return "forward:/user/index";
 	}
 	@RequestMapping("/addUser")
 	public String addUser(UserModel userModel){
