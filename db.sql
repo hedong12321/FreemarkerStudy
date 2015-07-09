@@ -48,6 +48,6 @@ INSERT INTO `user` VALUES ('9', '习近平', '202cb962ac59075b964b07152d234b70',
 INSERT INTO `user` VALUES ('10', '彭丽媛', '202cb962ac59075b964b07152d234b70', 'test1@qq.com', '0', '2014-05-23 14:48:07', '2014-05-23 14:48:07', 'admin', 'admin');
 INSERT INTO `user` VALUES ('11', '张韶涵', '202cb962ac59075b964b07152d234b70', 'zsh@qq.com', '0', '2014-05-23 14:48:33', '2014-05-23 14:48:33', 'admin', 'admin');
 INSERT INTO `user` VALUES ('12', '海清', '202cb962ac59075b964b07152d234b70', 'test9@qq.com', '0', '2014-05-23 14:49:25', '2014-05-23 14:49:25', 'admin', 'admin');
-INSERT INTO `user` VALUES ('13', ' 赵文卓', '202cb962ac59075b964b07152d234b70', 'zhaowenzhuo@xx.com', '1', '2014-05-23 15:20:23', '2014-05-23 15:23:47', 'admin', 'admin');
+INSERT INTO `user` VALUES ('13', '赵文卓', '202cb962ac59075b964b07152d234b70', 'zhaowenzhuo@xx.com', '1', '2014-05-23 15:20:23', '2014-05-23 15:23:47', 'admin', 'admin');
 INSERT INTO `user` VALUES ('16', '韦德', '202cb962ac59075b964b07152d234b70', 'wade@xx.com', '1', '2014-05-23 15:24:16', '2014-05-23 15:24:16', 'admin', 'admin');
 INSERT INTO `user` VALUES ('17', 'test', '098f6bcd4621d373cade4e832627b4f6', 'test8@qq.com', '2', '2014-05-23 15:24:43', '2014-05-23 15:24:43', 'admin', 'admin');
